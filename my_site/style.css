@@ -1,0 +1,87 @@
+.Griding{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 1px;
+  
+ 
+}
+
+.main-image{
+ width: 100%;
+ border-width: 2px;
+ border-color: rebeccapurple;
+ object-position:top ;
+ margin-bottom: 1px;
+ 
+  
+}
+.profile{
+  width: 40px;
+  border-radius: 30px;
+  
+}
+.h2{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-left: 16px;
+  
+}
+
+.name{
+  font-size: 20px;
+  font-family: arial;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 16px;
+  margin-bottom: 4px;
+}
+.button{
+ background-color: rgb(107, 104, 255);
+ color: aliceblue;
+ border:none;
+ margin-left: 12px;
+ border-radius: 6px;
+ font-weight: bold;
+ font-size: 15;
+ transition: background-color 1s,color;
+ transition: box-shadow 0.15s,color;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ padding-left: 17px;
+ padding-right: 17px;
+ cursor: pointer;
+ box-shadow: 5px 5px 10px rgba(0,0,0,0.28);
+}
+
+
+ .button:hover{
+   opacity: 0.8;
+ }
+
+
+.main1{
+  border-width: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.28);
+  padding-left: 0%;
+  padding-top: 1px;
+  width: 180px;
+  padding-left: 0;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+.mutual{
+  font-size: 15px;
+  font-family: arial;
+  color: rgb(101, 107, 107);
+  font-weight: 700;
+  object-position: left;
+  
+}
+.main2{
+  object-position: top;
+}
+.username{
+ margin-top: 0;
+ margin-bottom: 0;
+}
